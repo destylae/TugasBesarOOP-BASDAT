@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 8px; /* Tambahkan border-radius untuk memberikan sudut melengkung */
+}
+
+li {
+    float: left;
+    display: inline-block; /* Mengubah float menjadi inline-block */
+    padding: 15px; /* Tambahkan padding untuk memberikan ruang di sekitar teks dalam li */
+    text-align: center; /* Tengahkan teks di dalam li */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Efek hover untuk tautan di dalam li */
+li a:hover {
+    background-color: #555;
+}
+img {
+
+    max-width: 250px; /* Gambar akan menyesuaikan lebar container */
+    height: auto; /* Mencegah gambar terlalu tinggi */
+    display: block; /* Menghapus spasi tambahan di sekitar gambar */
+    margin: 20px auto; /* Membuat gambar berada di tengah container */
+    border-radius: 8px; /* Menambah sudut melengkung pada gambar */
+}
